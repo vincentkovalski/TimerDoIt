@@ -56,15 +56,71 @@
 		F182CB29273114BE00B63269 /* TimerDoIt */ = {
 			isa = PBXGroup;
 			children = (
-				F182CB2A273114BE00B63269 /* AppDelegate.swift */,
-				F182CB2C273114BE00B63269 /* SceneDelegate.swift */,
-				F182CB2E273114BE00B63269 /* ViewController.swift */,
-				F182CB30273114BE00B63269 /* Main.storyboard */,
+				F182CB3E2733080200B63269 /* Resources */,
+				F182CB412733089200B63269 /* Sources */,
 				F182CB33273114C200B63269 /* Assets.xcassets */,
-				F182CB35273114C200B63269 /* LaunchScreen.storyboard */,
-				F182CB38273114C200B63269 /* Info.plist */,
 			);
 			path = TimerDoIt;
+			sourceTree = "<group>";
+		};
+		F182CB3E2733080200B63269 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F182CB3F2733081700B63269 /* Configs */,
+				F182CB402733085000B63269 /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F182CB3F2733081700B63269 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				F182CB38273114C200B63269 /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		F182CB402733085000B63269 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F182CB30273114BE00B63269 /* Main.storyboard */,
+				F182CB35273114C200B63269 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F182CB412733089200B63269 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F182CB42273308A400B63269 /* App */,
+				F182CB43273308B200B63269 /* Scene */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F182CB42273308A400B63269 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F182CB2A273114BE00B63269 /* AppDelegate.swift */,
+				F182CB2C273114BE00B63269 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F182CB43273308B200B63269 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F182CB44273308BB00B63269 /* Timer flow */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		F182CB44273308BB00B63269 /* Timer flow */ = {
+			isa = PBXGroup;
+			children = (
+				F182CB2E273114BE00B63269 /* ViewController.swift */,
+			);
+			path = "Timer flow";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +347,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AMBQU454ZC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TimerDoIt/Info.plist;
+				INFOPLIST_FILE = TimerDoIt/Resources/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +362,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +375,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AMBQU454ZC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TimerDoIt/Info.plist;
+				INFOPLIST_FILE = TimerDoIt/Resources/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +390,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
